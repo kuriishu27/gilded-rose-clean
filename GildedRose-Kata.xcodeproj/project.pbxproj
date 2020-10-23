@@ -35,8 +35,6 @@
 		2D68117E2542E24A00F6C3E9 /* GildedRose-KataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GildedRose-KataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6811822542E24A00F6C3E9 /* GildedRose_KataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRose_KataTests.swift; sourceTree = "<group>"; };
 		2D6811842542E24A00F6C3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D68118D2542E24A00F6C3E9 /* GildedRose_KataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRose_KataUITests.swift; sourceTree = "<group>"; };
-		2D68118F2542E24A00F6C3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D68119E2542E28D00F6C3E9 /* GildedRose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRose.swift; sourceTree = "<group>"; };
 		2D6811A32542E31200F6C3E9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		2D6811B22542E61400F6C3E9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 			children = (
 				2D68116B2542E24900F6C3E9 /* GildedRose-Kata */,
 				2D6811812542E24A00F6C3E9 /* GildedRose-KataTests */,
-				2D68118C2542E24A00F6C3E9 /* GildedRose-KataUITests */,
 				2D68116A2542E24900F6C3E9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,15 +109,6 @@
 			path = "GildedRose-KataTests";
 			sourceTree = "<group>";
 		};
-		2D68118C2542E24A00F6C3E9 /* GildedRose-KataUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2D68118D2542E24A00F6C3E9 /* GildedRose_KataUITests.swift */,
-				2D68118F2542E24A00F6C3E9 /* Info.plist */,
-			);
-			path = "GildedRose-KataUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,6 +119,7 @@
 				2D6811652542E24900F6C3E9 /* Sources */,
 				2D6811662542E24900F6C3E9 /* Frameworks */,
 				2D6811672542E24900F6C3E9 /* Resources */,
+				2D6811BC2542E8EB00F6C3E9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -214,6 +203,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D6811BC2542E8EB00F6C3E9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D6811652542E24900F6C3E9 /* Sources */ = {

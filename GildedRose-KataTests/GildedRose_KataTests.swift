@@ -21,8 +21,10 @@ class GildedRoseTests: XCTestCase {
 	}
 
 	func testUpdateQuantityWithMultipleNormalItems() {
-		let input = [Item(name: "Wirt's Third Leg", sellIn: 30, quality: 1), Item(name: "Drakefire Amulet", sellIn: 5, quality: 5)]
-		let expectedOutput = [Item(name: "Wirt's Third Leg", sellIn: 29, quality: 0), Item(name: "Drakefire Amulet", sellIn: 4, quality: 4)]
+		let input = [Item(name: "Wirt's Third Leg", sellIn: 30, quality: 1),
+					 Item(name: "Drakefire Amulet", sellIn: 5, quality: 5)]
+		let expectedOutput = [Item(name: "Wirt's Third Leg", sellIn: 29, quality: 0),
+							  Item(name: "Drakefire Amulet", sellIn: 4, quality: 4)]
 		let actualOutput = GildedRose.updateQuality(input)
 
 		XCTAssertEqual(expectedOutput, actualOutput)
