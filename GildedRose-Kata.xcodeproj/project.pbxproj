@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D68116D2542E24900F6C3E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D68116C2542E24900F6C3E9 /* AppDelegate.swift */; };
-		2D68116F2542E24900F6C3E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D68116E2542E24900F6C3E9 /* ContentView.swift */; };
 		2D6811712542E24A00F6C3E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6811702542E24A00F6C3E9 /* Assets.xcassets */; };
 		2D6811742542E24A00F6C3E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6811732542E24A00F6C3E9 /* Preview Assets.xcassets */; };
-		2D6811772542E24A00F6C3E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6811752542E24A00F6C3E9 /* Main.storyboard */; };
 		2D6811832542E24A00F6C3E9 /* GildedRose_KataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6811822542E24A00F6C3E9 /* GildedRose_KataTests.swift */; };
-		2D68118E2542E24A00F6C3E9 /* GildedRose_KataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D68118D2542E24A00F6C3E9 /* GildedRose_KataUITests.swift */; };
+		2D68119F2542E28D00F6C3E9 /* GildedRose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D68119E2542E28D00F6C3E9 /* GildedRose.swift */; };
+		2D6811A42542E31200F6C3E9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6811A32542E31200F6C3E9 /* Item.swift */; };
+		2D6811B42542E61400F6C3E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6811B22542E61400F6C3E9 /* AppDelegate.swift */; };
+		2D6811B52542E61400F6C3E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6811B32542E61400F6C3E9 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,30 +24,23 @@
 			remoteGlobalIDString = 2D6811682542E24900F6C3E9;
 			remoteInfo = "GildedRose-Kata";
 		};
-		2D68118A2542E24A00F6C3E9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D6811612542E24900F6C3E9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D6811682542E24900F6C3E9;
-			remoteInfo = "GildedRose-Kata";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2D6811692542E24900F6C3E9 /* GildedRose-Kata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GildedRose-Kata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D68116C2542E24900F6C3E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D68116E2542E24900F6C3E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D6811702542E24A00F6C3E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D6811732542E24A00F6C3E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2D6811762542E24A00F6C3E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D6811782542E24A00F6C3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D6811792542E24A00F6C3E9 /* GildedRose_Kata.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GildedRose_Kata.entitlements; sourceTree = "<group>"; };
 		2D68117E2542E24A00F6C3E9 /* GildedRose-KataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GildedRose-KataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6811822542E24A00F6C3E9 /* GildedRose_KataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRose_KataTests.swift; sourceTree = "<group>"; };
 		2D6811842542E24A00F6C3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D6811892542E24A00F6C3E9 /* GildedRose-KataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GildedRose-KataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D68118D2542E24A00F6C3E9 /* GildedRose_KataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRose_KataUITests.swift; sourceTree = "<group>"; };
 		2D68118F2542E24A00F6C3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D68119E2542E28D00F6C3E9 /* GildedRose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GildedRose.swift; sourceTree = "<group>"; };
+		2D6811A32542E31200F6C3E9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2D6811B22542E61400F6C3E9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D6811B32542E61400F6C3E9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +52,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2D68117B2542E24A00F6C3E9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D6811862542E24A00F6C3E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,7 +76,6 @@
 			children = (
 				2D6811692542E24900F6C3E9 /* GildedRose-Kata.app */,
 				2D68117E2542E24A00F6C3E9 /* GildedRose-KataTests.xctest */,
-				2D6811892542E24A00F6C3E9 /* GildedRose-KataUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,10 +83,11 @@
 		2D68116B2542E24900F6C3E9 /* GildedRose-Kata */ = {
 			isa = PBXGroup;
 			children = (
-				2D68116C2542E24900F6C3E9 /* AppDelegate.swift */,
-				2D68116E2542E24900F6C3E9 /* ContentView.swift */,
+				2D6811B22542E61400F6C3E9 /* AppDelegate.swift */,
+				2D6811B32542E61400F6C3E9 /* ContentView.swift */,
+				2D6811A32542E31200F6C3E9 /* Item.swift */,
+				2D68119E2542E28D00F6C3E9 /* GildedRose.swift */,
 				2D6811702542E24A00F6C3E9 /* Assets.xcassets */,
-				2D6811752542E24A00F6C3E9 /* Main.storyboard */,
 				2D6811782542E24A00F6C3E9 /* Info.plist */,
 				2D6811792542E24A00F6C3E9 /* GildedRose_Kata.entitlements */,
 				2D6811722542E24A00F6C3E9 /* Preview Content */,
@@ -173,24 +159,6 @@
 			productReference = 2D68117E2542E24A00F6C3E9 /* GildedRose-KataTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2D6811882542E24A00F6C3E9 /* GildedRose-KataUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D6811982542E24A00F6C3E9 /* Build configuration list for PBXNativeTarget "GildedRose-KataUITests" */;
-			buildPhases = (
-				2D6811852542E24A00F6C3E9 /* Sources */,
-				2D6811862542E24A00F6C3E9 /* Frameworks */,
-				2D6811872542E24A00F6C3E9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D68118B2542E24A00F6C3E9 /* PBXTargetDependency */,
-			);
-			name = "GildedRose-KataUITests";
-			productName = "GildedRose-KataUITests";
-			productReference = 2D6811892542E24A00F6C3E9 /* GildedRose-KataUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,10 +172,6 @@
 						CreatedOnToolsVersion = 12.0.1;
 					};
 					2D68117D2542E24A00F6C3E9 = {
-						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = 2D6811682542E24900F6C3E9;
-					};
-					2D6811882542E24A00F6C3E9 = {
 						CreatedOnToolsVersion = 12.0.1;
 						TestTargetID = 2D6811682542E24900F6C3E9;
 					};
@@ -228,7 +192,6 @@
 			targets = (
 				2D6811682542E24900F6C3E9 /* GildedRose-Kata */,
 				2D68117D2542E24A00F6C3E9 /* GildedRose-KataTests */,
-				2D6811882542E24A00F6C3E9 /* GildedRose-KataUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +201,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D6811772542E24A00F6C3E9 /* Main.storyboard in Resources */,
 				2D6811742542E24A00F6C3E9 /* Preview Assets.xcassets in Resources */,
 				2D6811712542E24A00F6C3E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2D68117C2542E24A00F6C3E9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D6811872542E24A00F6C3E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,8 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D68116F2542E24900F6C3E9 /* ContentView.swift in Sources */,
-				2D68116D2542E24900F6C3E9 /* AppDelegate.swift in Sources */,
+				2D6811B42542E61400F6C3E9 /* AppDelegate.swift in Sources */,
+				2D6811A42542E31200F6C3E9 /* Item.swift in Sources */,
+				2D6811B52542E61400F6C3E9 /* ContentView.swift in Sources */,
+				2D68119F2542E28D00F6C3E9 /* GildedRose.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,14 +235,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D6811852542E24A00F6C3E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D68118E2542E24A00F6C3E9 /* GildedRose_KataUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -294,23 +243,7 @@
 			target = 2D6811682542E24900F6C3E9 /* GildedRose-Kata */;
 			targetProxy = 2D68117F2542E24A00F6C3E9 /* PBXContainerItemProxy */;
 		};
-		2D68118B2542E24A00F6C3E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D6811682542E24900F6C3E9 /* GildedRose-Kata */;
-			targetProxy = 2D68118A2542E24A00F6C3E9 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2D6811752542E24A00F6C3E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D6811762542E24A00F6C3E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2D6811902542E24A00F6C3E9 /* Debug */ = {
@@ -520,46 +453,6 @@
 			};
 			name = Release;
 		};
-		2D6811992542E24A00F6C3E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7FFBU6H3CE;
-				INFOPLIST_FILE = "GildedRose-KataUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.christianleovido.GildedRose-KataUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "GildedRose-Kata";
-			};
-			name = Debug;
-		};
-		2D68119A2542E24A00F6C3E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 7FFBU6H3CE;
-				INFOPLIST_FILE = "GildedRose-KataUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.christianleovido.GildedRose-KataUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "GildedRose-Kata";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -586,15 +479,6 @@
 			buildConfigurations = (
 				2D6811962542E24A00F6C3E9 /* Debug */,
 				2D6811972542E24A00F6C3E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D6811982542E24A00F6C3E9 /* Build configuration list for PBXNativeTarget "GildedRose-KataUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D6811992542E24A00F6C3E9 /* Debug */,
-				2D68119A2542E24A00F6C3E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
